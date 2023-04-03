@@ -1,0 +1,113 @@
+** start of undefined **
+
+<!DOCTYPE html>
+</html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <title>Technical Documentation Page</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <main id='main-doc'>
+    <nav id='navbar'>
+      <header>Navigation</header><hr>
+      <a class='nav-link' href='#section_1'>section 1</a><br>
+      <a class='nav-link' href='#section_2'>section 2</a><br>
+      <a class='nav-link' href='#section_3'>section 3</a><br>
+      <a class='nav-link' href='#section_4'>section 4</a><br>
+      <a class='nav-link' href='#section_5'>section 5</a>
+    </nav>
+    <section class='main-section' id='section_1'>
+      <header>section 1</header>
+      <p>Text1</p>
+      <p>Text2</p>
+    </section>
+    <section class='main-section' id='section_2'>
+      <header>section 2</header>
+      <p>Text1</p>
+      <p>Text2</p>
+    </section>
+    <section class='main-section' id='section_3'>
+      <header>section 3</header>
+      <p>Text1</p>
+      <p>Text2</p>
+    </section>
+    <section class='main-section' id='section_4'>
+      <header>section 4</header>
+      <p>Text1</p>
+      <p>Text2</p>
+    </section>
+    <section class='main-section' id='section_5'>
+      <header>section 5</header>
+      <p>Text1</p>
+      <p>Text2</p>
+      <ul>
+        <li><code>sub1</code></li>
+        <li><code>sub2</code></li>
+        <li><code>sub3</code></li>
+        <li><code>sub4</code></li>
+        <li><code>sub5</code></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  text-align: center;
+  padding-top: 10px;
+  position: fixed;
+  min-width: 120px;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+.nav-link {
+  line-height: 2;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 140px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+
+@media (max-width: 320px) {
+#navbar {
+  text-align: center;
+  padding-top: 10px;
+  position: fixed;
+  min-width: 80px;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+.nav-link {
+  line-height: 2;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 100px;
+  padding: 10px;
+  margin-bottom: 110px;
+}
+
+}
+
+** end of undefined **
+
